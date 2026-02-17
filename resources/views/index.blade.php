@@ -3,76 +3,136 @@
     <section id="produits" class="section-padding">
         <div class="container">
             <div class="section-header text-center">
-                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Nos produits</h2>
-                <span>Produits</span>
+                <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Nos Domaines d'Expertise</h2>
+                <span>Expertise</span>
             </div>
             <div class="row">
-                <div class="col-md-6 col-lg-4 col-xs-12">
-                    <div class="services-item wow fadeInRight " data-wow-delay="0.3s">
-                        <div class="icon ">
+                <!-- Informatique (IT) -->
+                <div class="col-lg-4 col-md-6 col-xs-12">
+                    <div class="services-item wow fadeInRight" data-wow-delay="0.3s">
+                        <div class="icon">
+                            <i class="lni-laptop-phone"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3><a href="#">Informatique (IT)</a></h3>
+
+                            <div class="sub-service-box text-left">
+                                <h5 class="mt-3 text-violet"><i class="mdi mdi-home"></i> Résidentiel</h5>
+                                <ul style="list-style-type: disc; padding-left: 20px;">
+                                    <li>Assistance informatique à domicile</li>
+                                    <li>Installation et sécurisation Wi-Fi</li>
+                                    <li>Protection des ordinateurs et smartphones</li>
+                                    <li>Formations de base</li>
+                                </ul>
+                            </div>
+
+                            <div class="sub-service-box text-left">
+                                <h5 class="mt-3 text-violet"><i class="mdi mdi-domain"></i> Entreprises</h5>
+                                <ul style="list-style-type: disc; padding-left: 20px;">
+                                    <li>Audit du système informatique existant</li>
+                                    <li>Mise en place de réseaux LAN / Wi-Fi</li>
+                                    <li>Solutions cloud & Cybersécurité</li>
+                                    <li>Support et maintenance IT externalisés</li>
+                                    <li>Formations du personnel</li>
+                                </ul>
+                            </div>
+
+                            <div class="sub-service-box text-left">
+                                <h5 class="mt-3 text-violet"><i class="mdi mdi-factory"></i> Industries</h5>
+                                <ul style="list-style-type: disc; padding-left: 20px;">
+                                    <li>Gestion de projets IT</li>
+                                    <li>Sécurisation des infrastructures critiques</li>
+                                    <li>Supervision des serveurs et réseaux</li>
+                                    <li>Plans de continuité (PCA/PRA)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Énergie -->
+                <div class="col-lg-4 col-md-6 col-xs-12">
+                    <div class="services-item wow fadeInRight" data-wow-delay="0.6s">
+                        <div class="icon">
+                            <i class="mdi mdi-lightning-bolt"></i>
+                        </div>
+                        <div class="services-content">
+                            <h3><a href="#">Énergie</a></h3>
+
+                            <div class="sub-service-box text-left">
+                                <h5 class="mt-3 text-violet"><i class="mdi mdi-home"></i> Résidentiel</h5>
+                                <ul style="list-style-type: disc; padding-left: 20px;">
+                                    <li>Kits solaires domestiques</li>
+                                    <li>Onduleurs et batteries de secours</li>
+                                    <li>Optimisation de la consommation</li>
+                                    <li>Maintenance installations solaires</li>
+                                </ul>
+                            </div>
+
+                            <div class="sub-service-box text-left">
+                                <h5 class="mt-3 text-violet"><i class="mdi mdi-domain"></i> Entreprises</h5>
+                                <ul style="list-style-type: disc; padding-left: 20px;">
+                                    <li>Études énergétiques</li>
+                                    <li>Systèmes solaires hybrides</li>
+                                    <li>Groupes électrogènes automatisés</li>
+                                    <li>Monitoring de consommation</li>
+                                </ul>
+                            </div>
+
+                            <div class="sub-service-box text-left">
+                                <h5 class="mt-3 text-violet"><i class="mdi mdi-factory"></i> Industries</h5>
+                                <ul style="list-style-type: disc; padding-left: 20px;">
+                                    <li>Centrales solaires industrielles</li>
+                                    <li>Systèmes de stockage grande capacité</li>
+                                    <li>Sécurisation énergétique critique</li>
+                                    <li>Maintenance préventive</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Maison Connectée / Smart Building -->
+                <div class="col-lg-4 col-md-6 col-xs-12">
+                    <div class="services-item wow fadeInRight" data-wow-delay="0.9s">
+                        <div class="icon">
                             <i class="mdi mdi-home-automation"></i>
                         </div>
                         <div class="services-content">
-                            <h3><a class="lightbox" href="{{asset("images/produits/audiovisuel.png")}}">Domotique multimédia </a></h3>
-                            <p>Créez une ambiance sonore unique, regardez un film d'un simple geste et ce depuis n'importe quelle pièce </p>
+                            <h3><a href="#">Maison Connectée / Smart Building</a></h3>
+
+                            <div class="sub-service-box text-left">
+                                <h5 class="mt-3 text-violet"><i class="mdi mdi-home"></i> Résidentiel</h5>
+                                <ul style="list-style-type: disc; padding-left: 20px;">
+                                    <li>Automatisation éclairage et climatisation</li>
+                                    <li>Gestion intelligente de l’énergie</li>
+                                    <li>Vidéosurveillance et alarmes connectées</li>
+                                    <li>Pilotage à distance via smartphone</li>
+                                </ul>
+                            </div>
+
+                            <div class="sub-service-box text-left">
+                                <h5 class="mt-3 text-violet"><i class="mdi mdi-domain"></i> Entreprises</h5>
+                                <ul style="list-style-type: disc; padding-left: 20px;">
+                                    <li>Contrôle d’accès & Vidéosurveillance</li>
+                                    <li>Gestion éclairage et climatisation</li>
+                                    <li>Automatisation des bâtiments</li>
+                                </ul>
+                            </div>
+
+                            <div class="sub-service-box text-left">
+                                <h5 class="mt-3 text-violet"><i class="mdi mdi-factory"></i> Industries</h5>
+                                <ul style="list-style-type: disc; padding-left: 20px;">
+                                    <li>Sécurité avancée (IP, périmétrique)</li>
+                                    <li>Supervision centralisée équipements</li>
+                                    <li>Automatisation énergétique</li>
+                                    <li>Intégration IT + énergie + sécurité</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xs-12">
-                    <div class="services-item wow fadeInRight" data-wow-delay="0.6s">
-                        <div class="icon">
-                            <i class="bx bxs-door-open"></i>
-                        </div>
-                        <div class="services-content">
-                            <h3><a class="lightbox" href="{{asset("images/produits/ouvrant.png")}}" >Pilotage des Ouvrants</a></h3>
-                            <p>Grâce à nos solutions, vous ouvrirez la porte de votre garage sans descendre de voiture !</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xs-12">
-                    <div class="services-item wow fadeInRight" data-wow-delay="0.9s">
-                        <div class="icon">
-                            <i class="mdi mdi-ceiling-light-multiple"></i>
-                        </div>
-                        <div class="services-content">
-                            <h3><a class="lightbox" href="{{asset("images/produits/eclairage.png")}}" >Pilotages des Éclairages</a></h3>
-                            <p>Allumez la lumière d'une pièce à distance ou lorsqu'une présence est détectée !</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xs-12">
-                    <div class="services-item wow fadeInRight" data-wow-delay="1.2s">
-                        <div class="icon">
-                            <i class="mdi mdi-air-conditioner"></i>
-                        </div>
-                        <div class="services-content">
-                            <h3><a class="lightbox" href="{{asset("images/produits/ac.png")}}" >Climatisation et Chauffage</a></h3>
-                            <p>Vous avez ouliez d'éteindre la climatisation en sortant ? Pas de problème éteingnez la depuis votre smatphone !</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xs-12">
-                    <div class="services-item wow fadeInRight" data-wow-delay="1.5s">
-                        <div class="icon">
-                            <i class="bx bxs-cctv"></i>
-                        </div>
-                        <div class="services-content">
-                            <h3><a class="lightbox" href="{{asset("images/produits/securite.png")}}" >Sécurité</a></h3>
-                            <p>Grâce aux Alarmes, Caméras et Contrôle d’accès vous pourrez contrôler et sécuriser votre maison de n'importe oû. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 col-xs-12">
-                    <div class="services-item wow fadeInRight" data-wow-delay="1.8s">
-                        <div class="icon">
-                            <i class="mdi mdi-home-lightning-bolt"></i>
-                        </div>
-                        <div class="services-content">
-                            <h3><a class="lightbox" href="{{asset("images/produits/energie.png")}}">Consommations d’énergie</a></h3>
-                            <p>Avoir un résumé de votre consommation d'énergie vous permettra de mieux gérer votre consommation ! </p>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
@@ -117,7 +177,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                     <div class="show-box wow fadeInUp" data-wow-delay="0.3s">
-                        <img src="{{ asset('images/icones/mobile-phone.png') }}" alt="">
+                        <img src="{{ asset('images/icones/LOGO KSPA-01.png') }}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
@@ -163,27 +223,27 @@
                         <div>
                             <div class="site-heading">
                                 <p class="mb-3">Qui sommes nous ?</p>
-                                <h2 class="section-title">DOMOTIKLUX</h2>
+                                <h2 class="section-title">KSPA GROUP</h2>
                             </div>
                             <div class="content">
                                 <p>
-                                    Domotiklux est une entreprise de domotique filiale du groupe KISWENDSIDA SPA, qui propose
-                                    des solutions innovantes pour les maisons intelligentes. Notre mission 
-                                    de simplifier la vie de nos clients en leur offrant des solutions de
-                                    domotique abordables et faciles à utiliser, tout en améliorant leur qualité de vie.
-                                    Nous sommes convaincus que nos produits et services innovants aideront nos
-                                    clients à économiser de l'énergie, à renforcer leur sécurité et à profiter d'un confort
-                                    et d'un divertissement supérieurs dans leur maison.
-                                    Nos produits comprennent des systèmes de contrôle intelligent pour les lumières, le
-                                    chauffage, la climatisation et les appareils ménagers, ainsi que des solutions de
-                                    sécurité telles que des caméras de surveillance et des détecteurs de fumée intélligents.
+                                    KSPA GROUP est une entreprise burkinabè créée en 2024, spécialisée dans les solutions de
+                                    maison connectée, les services informatiques et la gestion intelligente de l’énergie.
+                                    Basée à Ouagadougou, KSPA GROUP accompagne les particuliers, les entreprises et les
+                                    promoteurs dans la conception, l’installation et la maintenance de systèmes
+                                    technologiques fiables, évolutifs et performants.
+                                </p>
+                                <p>
+                                    Nous intervenons au cœur de la transformation numérique des habitats et des
+                                    infrastructures, en proposant des solutions innovantes qui améliorent le confort, la
+                                    sécurité, la performance énergétique et la connectivité.
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
-                    <img class="img-fluid" src="{{ asset('images/icones/5.jpg') }}" alt="">
+                    <img class="img-fluid" src="{{ asset('images/icones/g2.gif') }}" alt="">
                 </div>
             </div>
         </div>
@@ -206,7 +266,8 @@
                         </div>
                         <div class="description">
                             <p class="text">
-                               Nous sommes là pour vous aider à choisir les produits et services qui vous conviendront le mieux.
+                                Nous sommes là pour vous aider à choisir les produits et services qui vous conviendront le
+                                mieux.
                             </p>
                         </div>
                     </div>
@@ -221,7 +282,8 @@
                         </div>
                         <div class="description">
                             <p class="text">
-                                Résoudre des problèmes techniques, repondre à toutes vos questions ; nos experts sont là pour vous !
+                                Résoudre des problèmes techniques, repondre à toutes vos questions ; nos experts sont là
+                                pour vous !
                             </p>
                         </div>
                     </div>
@@ -236,7 +298,8 @@
                         </div>
                         <div class="description">
                             <p class="text">
-                                Vous désirez en apprendre plus sur la domotique ? Nous proposons aussi des formations certifiantes.
+                                Vous désirez en apprendre plus sur la domotique ? Nous proposons aussi des formations
+                                certifiantes.
                             </p>
                         </div>
 
@@ -256,15 +319,16 @@
                 <div class="col-lg-6 col-md-12 col-xs-12">
                     <div class="team-item wow fadeInRight" data-wow-delay="0.2s">
                         <div class="team-img">
-                            <img class="img-fluid" src="{{ asset('images/icones/woman.png') }}" alt="">
+                            <img class="img-fluid" src="{{ asset('images/icones/man.png') }}" alt="">
                         </div>
                         <div class="content">
                             <div class="info-text">
-                                <h3><a href="#">ZOUNGRANA T. Edwige </a></h3>
-                                <p>Fondateur et PDG</p>
+                                <h3><a href="#">KASSOGA P. Justin</a></h3>
+                                <p>CEO KSPA GROUP</p>
                             </div>
-                            <p>Responsable de la stratégie globale de l'entreprise, de la gestion des opérations, de la recherche et du développement de l'entreprise.
-                            </p>
+                            <p>Home Automation Expert (Smart Home), Certified ISO/IEC 27001 LI, Certified in Digital Money,
+                                Strategy, Digital Transformation & Data Governance Consultant | Cybersecurity & Banking
+                                Innovation Expert</p>
                         </div>
                     </div>
                 </div>
@@ -275,11 +339,12 @@
                         </div>
                         <div class="content">
                             <div class="info-text">
-                                <h3><a href="#">KASSOGA P. Justin</a></h3>
-                                <p>Directeur Général </p>
+                                <h3><a href="#">OUEDRAOGO Franck</a></h3>
+                                <p>Directeur Technique</p>
                             </div>
                             <p>
-                                Ingénieur en Securité Informatique, expert en Gestion de projet et Cybersécurité.
+                                Expert en Réseaux Informatiques et Cybersécurité, Responsable de la conception, du
+                                développement de nos produits et services, et de la supervision de l'équipe technique.
                             </p>
                         </div>
                     </div>
@@ -287,46 +352,16 @@
                 <div class="col-lg-6 col-md-12 col-xs-12">
                     <div class="team-item wow fadeInRight" data-wow-delay="0.6s">
                         <div class="team-img">
-                            <img class="img-fluid" src="{{ asset('images/icones/man.png') }}" alt="">
-                        </div>
-                        <div class="content">
-                            <div class="info-text">
-                                <h3><a href="#">YILI Yives</a></h3>
-                                <p>Directeur technique</p>
-                            </div>
-                            <p>Responsable de la conception, du développement de nos produits et services, et de la supervision de l'équipe technique.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-xs-12">
-                    <div class="team-item wow fadeInRight" data-wow-delay="0.8s">
-                        <div class="team-img">
                             <img class="img-fluid" src="{{ asset('images/icones/woman.png') }}" alt="">
                         </div>
                         <div class="content">
                             <div class="info-text">
                                 <h3><a href="#">KASSOGA N. T Sandrine</a></h3>
-                                <p>Ingénieur en Électrotechnique</p>
+                                <p>Ingénieur de Conception en Electromécanique</p>
                             </div>
                             <p>
-                            Chargée du volet Installation, Configuration, test et Mise en services de nos solutions.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-xs-12">
-                    <div class="team-item wow fadeInRight" data-wow-delay="0.8s">
-                        <div class="team-img">
-                            <img class="img-fluid" src="{{ asset('images/icones/woman.png') }}" alt="">
-                        </div>
-                        <div class="content">
-                            <div class="info-text">
-                                <h3><a href="#">Olga KALONGA</a></h3>
-                                <p>Ingénieure Informaticienne</p>
-                            </div>
-                            <p>
-                                Consultante en développement web.
+                                Experte chargée du volet Installation, Configuration, test et Mise en services de nos
+                                solutions de Domotique (Smart Home, Maison Connectée et Intelligente)
                             </p>
                         </div>
                     </div>
@@ -338,21 +373,20 @@
                         </div>
                         <div class="content">
                             <div class="info-text">
-                                <h3><a href="#">WANGRE W. Jean-Pierre</a></h3>
+                                <h3><a href="#">TAPSOBA Cedric</a></h3>
                                 <p>Ingénieur Informaticien</p>
                             </div>
                             <p>
-                                Expert en cablage et configuration des systemes IoT.
+                                Consultant Expert en développement web et Internet des Objets (IoT).
                             </p>
                         </div>
                     </div>
                 </div>
-               
             </div>
         </div>
     </section>
 
-    <section id="partnaires" class="testimonial section-padding bg-gray">
+    <section id="partenaires" class="testimonial section-padding bg-gray">
         <div class="container">
             <div class="section-header text-center">
                 <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Nos partenaires</h2>
@@ -362,34 +396,31 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div id="partnercarousel" class="owl-carousel wow fadeInUp" data-wow-delay="1.2s">
                         <div class="single-logo-item">
-                            <img src=" {{ asset('images/company-logos/1.png') }}" alt="">
+                            <img src="{{ asset('images/company-logos/SONOFF-logo.png') }}" alt="SONOFF">
                         </div>
                         <div class="single-logo-item">
-                            <img src=" {{ asset('images/company-logos/2.png') }}" alt="">
+                            <img src="{{ asset('images/company-logos/MOES-logo-3.jpg') }}" alt="MOES">
                         </div>
                         <div class="single-logo-item">
-                            <img src=" {{ asset('images/company-logos/3.png') }}" alt="">
+                            <img src="{{ asset('images/company-logos/Xiaomi-logo-1536x864.png') }}" alt="XIAOMI">
                         </div>
                         <div class="single-logo-item">
-                            <img src=" {{ asset('images/company-logos/4.png') }}" alt="">
+                            <img src="{{ asset('images/company-logos/AQARA.png') }}" alt="AQARA">
                         </div>
                         <div class="single-logo-item">
-                            <img src=" {{ asset('images/company-logos/5.jpg') }}" alt="">
+                            <img src="{{ asset('images/company-logos/Somfy_logo.svg.png') }}" alt="SOMFY">
                         </div>
                         <div class="single-logo-item">
-                            <img src=" {{ asset('images/company-logos/6.png') }}" alt="">
+                            <img src="{{ asset('images/company-logos/Fibaro-Logo.png') }}" alt="FIBARO">
                         </div>
                         <div class="single-logo-item">
-                            <img src=" {{ asset('images/company-logos/7.png') }}" alt="">
+                            <img src="{{ asset('images/company-logos/Broadlink-Logo.png') }}" alt="BROADLINK">
                         </div>
                         <div class="single-logo-item">
-                            <img src=" {{ asset('images/company-logos/8.png') }}" alt="">
+                            <img src="{{ asset('images/company-logos/KOOGEEK.png') }}" alt="KOOGEEK">
                         </div>
                         <div class="single-logo-item">
-                            <img src=" {{ asset('images/company-logos/9.jpg') }}" alt="">
-                        </div>
-                        <div class="single-logo-item">
-                            <img src=" {{ asset('images/company-logos/10.jpg') }}" alt="">
+                            <img src="{{ asset('images/company-logos/Orvibo.webp') }}" alt="ORVIBO">
                         </div>
                     </div>
                 </div>
@@ -425,15 +456,15 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="name" name="name"
-                                            placeholder="Nom" required data-error="Veuillez saisir votre nom">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Nom"
+                                            required data-error="Veuillez saisir votre nom">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" placeholder="Email" id="email" class="form-control"
-                                            name="email" required data-error="Veuillez saisir votre email">
+                                        <input type="text" placeholder="Email" id="email" class="form-control" name="email"
+                                            required data-error="Veuillez saisir votre email">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -454,7 +485,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <img class="img-fluid pt-5" src="{{ asset('images/icones/14.png') }}" alt="">
+                    <img class="img-fluid pt-5" src="{{ asset('images/icones/loader.gif') }}" alt="">
                 </div>
             </div>
         </div>
